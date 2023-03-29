@@ -1,0 +1,46 @@
+/* 头部导航栏 */
+.lelist,.rilist {
+    float: left;
+    line-height: 47px;
+}
+.lelist li {
+    float: left;
+    margin: 0 30px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.lelist li a {
+    color: #000000;
+}
+
+.rilist li {
+    float: left;
+    margin: 0 20px;
+    font-size: 14px;
+}
+
+.rilist li:last-child::after {
+    content: "\e91e";
+    margin-right: 9px;
+    font-family: "icomoon";
+}
+
+/* 中间商品列表部分 */
+
+.listbd li {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 30px;
+    width: 288px;
+    height: 460px;
+}
+
+.listbd li:hover {
+    box-shadow: 10px 10px 10px -4px  rgba(0, 0, 0, .3);
+}
+
+.listbd li:nth-child(4n) {
+    margin-right: 0;
+}
+

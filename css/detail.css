@@ -1,0 +1,393 @@
+/* <!-- 商品页面 --> */
+.shople {
+    float: left;
+    padding-top: 25px;
+    width: 420px;
+    height: 607px;
+}
+.shople .shopimg {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.shopsma {
+    position: relative;
+    margin-top: 100px;
+    height: 60px;
+}
+.shopsma ul {
+    margin: 0 50px;
+    height: 60px;
+}
+.shople .shopsma li {
+    float: left;
+    margin: 0 2px;
+    width: 60px;
+    text-align: center;
+}
+
+.shopsma .smalle,.shopsma .smalrig {
+    position: absolute;
+    top: 14px;
+    width: 22px;
+    height: 32px;
+}
+
+.shopsma .smalle {
+    left: 0;
+    background: url(../resources/images/arrow-prev.png) no-repeat;
+}
+
+
+.shopsma .smalrig {
+    right: 0;
+    background: url(../resources/images/arrow-next.png) no-repeat;
+}
+.shople .shopsma li:hover {
+    border: 1px solid #c81623;
+}
+
+.shopp {
+    margin-top: 14px;
+}
+
+.shopp span {
+    margin-right: 37px;
+}
+.shopp .twosp::before {
+    content: "";
+    display: inline-block;
+    margin-right: 3px;
+    vertical-align: middle;
+    height: 14px;
+    width: 12px;
+    background: url(../resources/images/icons.png) no-repeat -527px -79px;
+}
+.shopp .lasts {
+    margin-left: 18px;
+    margin-right: 0;
+}
+
+.shopri {
+    float: right;
+    padding-top: 40px;
+    width: 720px;
+    height: 607px;
+}
+
+.shopri {
+    font-size: 16px;
+}
+.shopri p {
+    margin-top: 17px;
+    margin-bottom: 21px;
+    font-size: 12px;
+    color: #e12228;
+}
+
+.shopri .price dt,
+.shopri .promotion dt,
+.shopri .addless dt,
+.shopri .peisong dt,
+.shopri .color dt,
+.shopri .version dt,
+.shopri .numgb dt,
+.shopri .type dt,
+.shopri .taoz dt{
+    float: left;
+    padding-left: 10px;
+    width: 60px;
+    font-size: 12px;
+    color: #666666;
+}
+
+.shopri .price dd,
+.shopri .promotion dd,
+.shopri .addless dd,
+.shopri .peisong dd,
+.shopri .color dd,
+.shopri .version dd,
+.shopri .numgb dd,
+.shopri .type dd,
+.shopri .taoz dd{
+    float: left;
+    width: 648px;
+    padding-left: 15px;
+    font-size: 12px;
+    color: #999999;
+}
+
+.shopri .kapp {
+    margin-bottom: 14px;
+    padding-top: 10px;
+    background-color: #fee9eb;
+    height: 115px;
+}
+.kapp .price {
+    margin-bottom: 13px;
+    height: 20px;
+    line-height: 20px;
+}
+
+.shopri .price dt{
+    margin-top: 5px;
+}
+
+.shopri .price i {
+    font-size: 24px;
+}
+
+.shopri .price a {
+    margin-left: 8px;
+}
+
+.shopri .price dd div {
+    float: right;
+}
+
+.shopri .kapp em {
+    display: inline-block;
+    width: 42px;
+    height: 24px;
+    background-color: #c81623;
+    text-align: center;
+    line-height: 23px;
+    color: #ffffff;
+}
+
+
+.shopri .peisong {
+    margin-top: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid black;
+}
+
+.shopri .color,
+.shopri .version,
+.shopri .numgb,
+.shopri .type,
+.shopri .taoz {
+    margin-bottom: 6px;
+}
+
+.shopri .color li,
+.shopri .version li,
+.shopri .numgb li,
+.shopri .type li,
+.shopri .taoz li{
+    float: left;
+    margin-right: 10px;
+    background-color: #f7f7f7;
+    color: #333333;
+    text-align: center;
+}
+
+.shopri .color {
+    margin-top: 16px;
+    height: 45px;
+    line-height: 45px;
+}
+
+
+.shopri .color li{
+    width: 84px;
+}
+
+.shopri .version {
+    height: 35px;
+    line-height: 35px;
+}
+
+.shopri .version li {
+    width: 70px;
+}
+
+.shopri li {
+    cursor: pointer;
+    border: 1px solid #e4e4e4;;
+}
+
+.shopri li:hover {
+    border: 1px solid #c81623;
+}
+
+.shopri .numgb,
+.shopri .type,
+.shopri .taoz {
+    height: 35px;
+    line-height: 35px;
+}
+
+.shopri .numgb li {
+    width: 60px;
+}
+
+.shopri .type li {
+    width: 88px;
+}
+
+.shopri .taoz li {
+    width: 79px;
+}
+
+
+.shopri .numgou {
+    margin-top: 18px;
+    margin-left: 10px;
+}
+
+.shopri .numgou .amount {
+    position: relative;
+    float: left;
+    width: 53px;
+    border: 1px solid #e4e4e4;
+}
+
+.numgou .amount input {
+    display: inline-block;
+    height: 47px;
+    width: 36px;
+    text-align: center;
+}
+
+.numgou .amount .add,
+.numgou .amount .reduce {
+    position: absolute;
+    right: 0;
+    height: 50%;
+    width: 17px;
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+.numgou .amount .add {
+    top: 0;
+}
+
+.numgou .amount .reduce {
+    bottom: 0;
+    cursor: not-allowed;
+}
+
+
+.shopri .numgou button {
+    float: left;
+    margin-left: 12px;
+    width: 144px;
+    height: 47px;
+    color: #ffffff;
+    background-color: #c81623;
+}
+
+/* 商品展示部分 */
+.show {
+    margin-top: 30px;
+}
+.show .showleft {
+    float: left;
+    width: 210px;
+    height: 2152px;
+    border: 1px solid #e4e4e4;
+}
+
+.showleft .tablist li:hover {
+    cursor: pointer;
+    color: #e12228;
+}
+
+.showleft .tablist .title  li{
+    float: left;
+    width: 50%;
+    height: 37px;
+    line-height: 37px;
+    text-align: center;
+}
+
+.tablist .title  li:last-child:hover {
+    color: #e12228;
+    background-color: #ffffff;
+}
+
+.tablist .title  li:last-child {
+    background-color: #f1f1f1;
+    border: 1px solid #e4e4e4;
+
+}
+
+.showleft .tablist .sli {
+    margin: 0 15px;
+}
+
+.showleft .tablist .sli li {
+    float: left;
+    width: 88px;
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.showleft .tablist .sbot {
+    margin-top: 22px;
+    margin-left: 10px;
+}
+
+.showleft .tabcon li {
+    margin: 25px 10px 20px 10px;
+    height: 250px;
+    border-bottom: 1px solid #000000;
+}
+
+.showleft .tabcon li a {
+    display: block;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.tabcon li h5 {
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+
+.tabcon li button {
+    margin-left: 50px;
+    width: 90px;
+    height: 30px;
+    background-color: #f7f7f7;
+    border: 1px solid #e4e4e4;
+}
+
+.show .showright {
+    float: left;
+    margin-left: 10px;
+    width: 980px;
+    height: 2152px;
+}
+
+.show .showright .rianv {
+    height: 40px;
+    background-color: #f1f1f1; 
+}
+
+.showright .rianv li {
+    float: left;
+    padding: 0 20px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.showright .rianv li:first-child {
+    color: #ffffff;
+    background-color: #c81623;
+}
+.showright .rimid {
+    padding: 25px 0 20px 20px;
+    border-bottom: 1px solid #e4e4e4;
+}
+.showright .rimid li {
+    margin-bottom: 10px;
+}
+.showright .rifoot {
+    text-align: center;
+}
+/* 猜你喜欢 */

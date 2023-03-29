@@ -1,0 +1,106 @@
+.hre {
+    height: 2px;
+    border: none;
+    margin-top: 10px;
+    background-color: #b1191a;
+}
+/* 表单注册部分 */
+.famer {
+    margin-top: 24px;
+    height: 465px;
+    border: 1px solid #e4e4e4;
+}
+
+.famerhd {
+    height: 45px;
+    background-color: #ececec;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.famer h5 {
+    float: left;
+    margin-left: 12px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 45px;
+}
+
+.famer p {
+    float: right;
+    margin-right: 12px;
+    font-size: 14px;
+    line-height: 45px;
+}
+
+.famerbd {
+    width: 600px;
+    margin: 50px auto;
+}
+
+.famer li {
+    margin: 10px 0;
+}
+
+.famerbd label {
+    display: inline-block;
+    width: 90px;
+    font-size: 14px;
+}
+
+.famerbd .inp {
+    width: 240px;
+    height: 38px;
+    padding-left: 5px;
+    border: 1px solid #cccccc;
+}
+
+.famer .error_icon {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    vertical-align: middle;
+    background: url(../resources/images/error.png) no-repeat center;
+    margin: -2px 5px 0 12px;
+}
+
+.famerbd .safe {
+    margin-left: 168px;
+}
+
+.famerbd li em {
+    display: inline-block;
+    margin: 0 1px;
+    width: 35px;
+    height: 14px;
+    line-height: 14px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.famerbd li .em1 {
+    background-color: #de1111;
+}
+
+.famerbd li .em2 {
+    background-color: #40b83f;
+}
+
+.famerbd li .em3 {
+    background-color: #f79100;
+}
+
+.famerbd .agree {
+    margin: 33px 95px 0;
+}
+
+.famerbd .agree a {
+    color: #74bded;
+}
+.famerbd input[type="submit"] {
+    width: 205px;
+    height: 35px;
+    margin: 40px 95px;
+    background-color: #c81623;
+    font-size: 14px;
+    color: #ffffff;
+}
